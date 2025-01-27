@@ -1,7 +1,7 @@
 # TikTok-like Web App (Free Tier Edition)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/thetubbydoughnut/tiktok-clone.git)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/yourrepo)
 
 A lightweight TikTok-style web application built entirely using free-tier services. Perfect for learning modern web development with scalable architecture.
 
@@ -29,31 +29,27 @@ A lightweight TikTok-style web application built entirely using free-tier servic
 [![FFmpeg.wasm](https://img.shields.io/badge/FFmpeg.wasm-0.10-green)](https://ffmpegwasm.netlify.app/)
 [![Cloudflare R2](https://img.shields.io/badge/R2-10GB_free-FF6714)](https://www.cloudflare.com/products/r2/)
 
-## 🚀 Quick Start
+## 🆕 Free Tier Requirements
+- Cloudflare account
+- Supabase account
+- GitHub account
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/thetubbydoughnut/tiktok-clone.git
-   cd tiktok-clone
-   ```
+## 🚀 Updated Quick Start
+1. Create Cloudflare R2 bucket
+2. Setup Supabase project
+3. Clone repo
+4. Deploy to Cloudflare Pages:
+```bash
+wrangler pages deploy ./dist
+```
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Set up environment variables**
-   ```bash
-   cp .env.example .env.local
-   ```
-   Fill in your credentials from:
-   - Supabase (NEXT_PUBLIC_SUPABASE_*)
-   - Cloudflare (R2_*)
-
-4. **Run development server**
-   ```bash
-   npm run dev
-   ```
+## 📉 Free Tier Limits
+| Resource       | Limit               |
+|----------------|---------------------|
+| Video Storage  | 10GB (R2)           |
+| Monthly Views  | 100k (Cloudflare)   |
+| Database       | 500MB (Supabase)    |
+| Auth Users     | 50k (Supabase)      |
 
 ## 🔧 Project Structure
 ├── components/ # React components
