@@ -1,7 +1,7 @@
 # TikTok-like Web App (Free Tier Edition)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fthetubbydoughnut%2Ftiktok-clone)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/thetubbydoughnut/tiktok-clone.git)
 
 A lightweight TikTok-style web application built entirely using free-tier services. Perfect for learning modern web development with scalable architecture.
 
